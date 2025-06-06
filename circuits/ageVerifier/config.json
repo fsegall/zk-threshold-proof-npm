@@ -1,0 +1,10 @@
+{
+    "name": "ageVerifier",
+    "description": "ZK Proof for Age Verification",
+    "circomFile": "ageVerifier.circom",
+    "inputFile": "input.json",
+    "ptauFile": "../powersOfTau28_hez_final_12.ptau",
+    "zkeyFile": "circuit_final.zkey",
+    "verifierFile": "verifier.sol"
+  }
+  

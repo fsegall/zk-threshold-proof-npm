@@ -1,0 +1,35 @@
+{
+  "name": "zk-threshold-proof",
+  "version": "0.2.1",
+  "description": "A lightweight SDK to generate and verify ZK proofs that assert a private value is greater than or equal to a threshold.",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "build": "echo \"Build step (optional)\"",
+    "dev": "node examples/runProof.js",
+    "docs": "cd website && npm run build && npm run serve"
+  },
+  "keywords": [
+    "zero-knowledge",
+    "zkp",
+    "zk-proof",
+    "zk-threshold",
+    "privacy",
+    "blockchain",
+    "cryptography"
+  ],
+  "author": "Felipe Segall <contato@livresoltech.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fsegall/zk-threshold-proof.git"
+  },
+  "dependencies": {
+    "snarkjs": "^0.6.11",
+    "circom_tester": "^0.1.8"
+  },
+  "devDependencies": {
+    "docusaurus": "^3.2.1"
+  }
+}
